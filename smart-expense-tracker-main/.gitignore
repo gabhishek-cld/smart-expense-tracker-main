@@ -1,0 +1,42 @@
+# ==========================================
+# Java / Spring Boot Exclusions
+# ==========================================
+backend/target/
+backend/*.jar
+backend/*.war
+backend/db/
+db/
+*.db
+
+# ==========================================
+# Node / React Frontend Exclusions
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+node_modules/
+dist/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.log
+
+# ==========================================
+# Test Reports & Temporary Artifacts
+# ==========================================
+test_report.csv
+test_report.pdf
+*.csv
+*.pdf
